@@ -2,6 +2,7 @@
   "presets": {
     "zelda3": {
       "enemizer": {
+        "game": "A Link to the Past",
         "description": "Enemizer Preset",
         "name": "Enemizer",
         "glitches_required": {
@@ -75,8 +76,8 @@
         },
         "goals": {
           "ganon": 50,
-          "fast_ganon": 0,
-          "dungeons": 0,
+          "crystals": 0,
+          "bosses": 0,
           "pedestal": 0,
           "triforce_hunt": 0,
           "local_triforce_hunt": 0,
@@ -148,18 +149,15 @@
           "on": 50,
           "off": 0
         },
-        "weapons": {
-          "randomized": 0,
-          "assured": 50,
-          "vanilla": 0,
-          "swordless": 0
+        "swordless": {
+          "on": 0,
+          "off": 50
         },
         "item_pool": {
           "easy": 0,
           "normal": 50,
           "hard": 0,
-          "expert": 0,
-          "crowd_control": 0
+          "expert": 0
         },
         "item_functionality": {
           "easy": 0,
@@ -173,9 +171,9 @@
         },
         "boss_shuffle": {
           "none": 0,
-          "simple": 0,
+          "basic": 0,
           "full": 50,
-          "random": 0,
+          "chaos": 0,
           "singularity": 0
         },
         "enemy_shuffle": {
@@ -310,6 +308,7 @@
         }
       },
       "keysanity": {
+        "game": "A Link to the Past",
         "description": "Keysanity Preset",
         "name": "Keysanity",
         "glitches_required": {
@@ -383,8 +382,8 @@
         },
         "goals": {
           "ganon": 50,
-          "fast_ganon": 0,
-          "dungeons": 0,
+          "crystals": 0,
+          "bosses": 0,
           "pedestal": 0,
           "triforce_hunt": 0,
           "local_triforce_hunt": 0,
@@ -456,18 +455,15 @@
           "on": 50,
           "off": 0
         },
-        "weapons": {
-          "randomized": 0,
-          "assured": 50,
-          "vanilla": 0,
-          "swordless": 0
+        "swordless": {
+          "on": 0,
+          "off": 50
         },
         "item_pool": {
           "easy": 0,
           "normal": 50,
           "hard": 0,
-          "expert": 0,
-          "crowd_control": 0
+          "expert": 0
         },
         "item_functionality": {
           "easy": 0,
@@ -618,6 +614,7 @@
         }
       },
       "mystery": {
+        "game": "A Link to the Past",
         "description": "Mystery Preset",
         "name": "Mystery",
         "glitches_required": {
@@ -691,8 +688,8 @@
         },
         "goals": {
           "ganon": 50,
-          "fast_ganon": 50,
-          "dungeons": 50,
+          "crystals": 50,
+          "bosses": 50,
           "pedestal": 50,
           "triforce_hunt": 50,
           "local_triforce_hunt": 0,
@@ -764,18 +761,15 @@
           "on": 50,
           "off": 50
         },
-        "weapons": {
-          "randomized": 50,
-          "assured": 50,
-          "vanilla": 50,
-          "swordless": 0
+        "swordless": {
+          "on": 0,
+          "off": 50
         },
         "item_pool": {
           "easy": 0,
           "normal": 50,
           "hard": 0,
-          "expert": 0,
-          "crowd_control": 0
+          "expert": 0
         },
         "item_functionality": {
           "easy": 0,
@@ -936,6 +930,7 @@
         ]
       },
       "mystery-easy": {
+        "game": "A Link to the Past",
         "description": "Mystery (Easy) Preset",
         "name": "Mystery",
         "glitches_required": {
@@ -1009,8 +1004,8 @@
         },
         "goals": {
           "ganon": 50,
-          "fast_ganon": 50,
-          "dungeons": 50,
+          "crystals": 50,
+          "bosses": 50,
           "pedestal": 50,
           "triforce_hunt": 50,
           "local_triforce_hunt": 0,
@@ -1082,18 +1077,15 @@
           "on": 50,
           "off": 0
         },
-        "weapons": {
-          "randomized": 50,
-          "assured": 50,
-          "vanilla": 50,
-          "swordless": 0
+        "swordless": {
+          "on": 0,
+          "off": 50
         },
         "item_pool": {
           "easy": 50,
           "normal": 0,
           "hard": 0,
-          "expert": 0,
-          "crowd_control": 0
+          "expert": 0
         },
         "item_functionality": {
           "easy": 50,
@@ -1254,6 +1246,7 @@
         ]
       },
       "mystery-hard": {
+        "game": "A Link to the Past",
         "description": "Mystery (Hard) Preset",
         "name": "Mystery",
         "glitches_required": {
@@ -1327,8 +1320,8 @@
         },
         "goals": {
           "ganon": 50,
-          "fast_ganon": 50,
-          "dungeons": 50,
+          "crystals": 50,
+          "bosses": 50,
           "pedestal": 50,
           "triforce_hunt": 50,
           "local_triforce_hunt": 0,
@@ -1400,18 +1393,15 @@
           "on": 0,
           "off": 50
         },
-        "weapons": {
-          "randomized": 50,
-          "assured": 50,
-          "vanilla": 50,
-          "swordless": 50
+        "swordless": {
+          "on": 0,
+          "off": 50
         },
         "item_pool": {
           "easy": 0,
           "normal": 0,
           "hard": 50,
-          "expert": 0,
-          "crowd_control": 0
+          "expert": 0
         },
         "item_functionality": {
           "easy": 0,
@@ -1572,6 +1562,7 @@
         ]
       },
       "daily": {
+        "game": "A Link to the Past",
         "description": "Daily Game Preset",
         "name": "Player",
         "glitches_required": {
@@ -1645,8 +1636,8 @@
         },
         "goals": {
           "ganon": 35,
-          "fast_ganon": 35,
-          "dungeons": 10,
+          "crystals": 35,
+          "bosses": 10,
           "pedestal": 20,
           "triforce_hunt": 0,
           "local_triforce_hunt": 0,
@@ -1719,18 +1710,15 @@
           "on": 50,
           "off": 0
         },
-        "weapons": {
-          "randomized": 45,
-          "assured": 45,
-          "vanilla": 10,
-          "swordless": 0
+        "swordless": {
+          "on": 0,
+          "off": 50
         },
         "item_pool": {
           "easy": 0,
           "normal": 50,
           "hard": 0,
-          "expert": 0,
-          "crowd_control": 0
+          "expert": 0
         },
         "item_functionality": {
           "easy": 0,
@@ -1885,8 +1873,8 @@
             "options": {
               "goals": {
                 "ganon": 0,
-                "fast_ganon": 0,
-                "dungeons": 0,
+                "crystals": 0,
+                "bosses": 0,
                 "pedestal": 0,
                 "triforce_hunt": 25,
                 "local_triforce_hunt": 25,
@@ -1931,6 +1919,7 @@
         ]
       },
       "daily-advanced": {
+        "game": "A Link to the Past",
         "description": "Daily Game Advanced Preset",
         "name": "AdvPlayer",
         "glitches_required": {
@@ -2004,8 +1993,8 @@
         },
         "goals": {
           "ganon": 35,
-          "fast_ganon": 35,
-          "dungeons": 10,
+          "crystals": 35,
+          "bosses": 10,
           "pedestal": 20,
           "triforce_hunt": 0,
           "local_triforce_hunt": 0,
@@ -2078,18 +2067,15 @@
           "on": 50,
           "off": 0
         },
-        "weapons": {
-          "randomized": 45,
-          "assured": 45,
-          "vanilla": 10,
-          "swordless": 0
+        "swordless": {
+          "on": 0,
+          "off": 50
         },
         "item_pool": {
           "easy": 0,
           "normal": 95,
           "hard": 5,
-          "expert": 0,
-          "crowd_control": 0
+          "expert": 0
         },
         "item_functionality": {
           "easy": 0,
@@ -2253,8 +2239,8 @@
             "options": {
               "goals": {
                 "ganon": 0,
-                "fast_ganon": 0,
-                "dungeons": 0,
+                "crystals": 0,
+                "bosses": 0,
                 "pedestal": 0,
                 "triforce_hunt": 25,
                 "local_triforce_hunt": 25,
@@ -2299,6 +2285,7 @@
         ]
       },
       "aginah-take-the-wheel": {
+        "game": "A Link to the Past",
         "description": "You're on your own.",
         "name": "ATTWPlayer",
         "glitches_required": {
@@ -2372,8 +2359,8 @@
         },
         "goals": {
           "ganon": 50,
-          "fast_ganon": 50,
-          "dungeons": 50,
+          "crystals": 50,
+          "bosses": 50,
           "pedestal": 50,
           "ganon_pedestal": 50,
           "triforce_hunt": 25,
@@ -2442,11 +2429,9 @@
           "on": 50,
           "off": 50
         },
-        "weapons": {
-          "randomized": 50,
-          "assured": 50,
-          "vanilla": 50,
-          "swordless": 50
+        "swordless": {
+          "on": 5,
+          "off": 45
         },
         "item_pool": {
           "easy": 50,
@@ -2719,6 +2704,7 @@
         }
       },
       "open": {
+        "game": "A Link to the Past",
         "description": "Open Preset",
         "name": "Open",
         "glitches_required": {
@@ -2792,8 +2778,8 @@
         },
         "goals": {
           "ganon": 50,
-          "fast_ganon": 0,
-          "dungeons": 0,
+          "crystals": 0,
+          "bosses": 0,
           "pedestal": 0,
           "triforce_hunt": 0,
           "local_triforce_hunt": 0,
@@ -2865,18 +2851,15 @@
           "on": 50,
           "off": 0
         },
-        "weapons": {
-          "randomized": 0,
-          "assured": 50,
-          "vanilla": 0,
-          "swordless": 0
+        "swordless": {
+          "on": 0,
+          "off": 50
         },
         "item_pool": {
           "easy": 0,
           "normal": 50,
           "hard": 0,
-          "expert": 0,
-          "crowd_control": 0
+          "expert": 0
         },
         "item_functionality": {
           "easy": 0,
@@ -3027,6 +3010,7 @@
         }
       },
       "retro": {
+        "game": "A Link to the Past",
         "description": "Retro Preset",
         "name": "Retro",
         "glitches_required": {
@@ -3100,8 +3084,8 @@
         },
         "goals": {
           "ganon": 50,
-          "fast_ganon": 0,
-          "dungeons": 0,
+          "crystals": 0,
+          "bosses": 0,
           "pedestal": 0,
           "triforce_hunt": 0,
           "local_triforce_hunt": 0,
@@ -3173,18 +3157,15 @@
           "on": 50,
           "off": 0
         },
-        "weapons": {
-          "randomized": 0,
-          "assured": 50,
-          "vanilla": 0,
-          "swordless": 0
+        "swordless": {
+          "on": 0,
+          "off": 50
         },
         "item_pool": {
           "easy": 0,
           "normal": 50,
           "hard": 0,
-          "expert": 0,
-          "crowd_control": 0
+          "expert": 0
         },
         "item_functionality": {
           "easy": 0,
@@ -3345,6 +3326,7 @@
         ]
       },
       "standard": {
+        "game": "A Link to the Past",
         "description": "Standard Preset",
         "name": "Standard",
         "glitches_required": {
@@ -3418,8 +3400,8 @@
         },
         "goals": {
           "ganon": 50,
-          "fast_ganon": 0,
-          "dungeons": 0,
+          "crystals": 0,
+          "bosses": 0,
           "pedestal": 0,
           "triforce_hunt": 0,
           "local_triforce_hunt": 0,
@@ -3491,18 +3473,15 @@
           "on": 50,
           "off": 0
         },
-        "weapons": {
-          "randomized": 0,
-          "assured": 50,
-          "vanilla": 0,
-          "swordless": 0
+        "swordless": {
+          "on": 0,
+          "off": 50
         },
         "item_pool": {
           "easy": 0,
           "normal": 50,
           "hard": 0,
-          "expert": 0,
-          "crowd_control": 0
+          "expert": 0
         },
         "item_functionality": {
           "easy": 0,
